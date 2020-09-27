@@ -17,7 +17,7 @@ eureka:
     leaseExpirationDurationInSeconds: 2
   client:
     serviceUrl:
-      defaultZone: http://daxzg83339dns.eastus2.cloudapp.azure.com:87611/eureka/
+      defaultZone: http://discovery:8761/eureka/
     healthcheck:
       enabled: true
     lease:
