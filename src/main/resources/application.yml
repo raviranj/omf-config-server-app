@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/raviranj/omf-config-server
+          uri: https://github.com/raviranj/omf-config-server.git
 
 server:
   port: 5098    #port number
