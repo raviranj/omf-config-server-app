@@ -1,4 +1,12 @@
-spring:  application:    name: config-server-app      cloud:    config:      server:        git:          uri: https://github.com/raviranj/omf-config-server
+spring:
+  application:
+    name: config-server-app
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/raviranj/omf-config-server
 
 server:
   port: 5098    #port number
@@ -9,7 +17,7 @@ eureka:
     leaseExpirationDurationInSeconds: 2
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://daxzg83339dns.eastus2.cloudapp.azure.com:87611/eureka/
     healthcheck:
       enabled: true
     lease:
